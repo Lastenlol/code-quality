@@ -5,12 +5,11 @@ function doSomething1() {
         fun1(a)
     }
 
-
     return a
 }
 
 function doSomething2() {
-    var b = 0..10
+    var b = 1..10
 
     if (somethingWrong(a)) {
         fun2(b)
@@ -26,3 +25,6 @@ function doSomething(range, handle) {
 
     return range
 }
+
+doSomething(0..10, fun1)
+doSomething(1..10, fun2)
