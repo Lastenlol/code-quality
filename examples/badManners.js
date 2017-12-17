@@ -16,7 +16,7 @@ function someTask(args) {
 }
 // ->
 function someTask(booleanFlag) {
-    !booleanFlag ? doSomething() : doSomethingElse()
+    booleanFlag ? doSomethingElse() : doSomething()
 }
 
 var array = [];
